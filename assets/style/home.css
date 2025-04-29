@@ -1,15 +1,19 @@
 header{
     height: 100px;
-    background-color: aquamarine;
+    background-color:rgb(135, 206, 250);
     align-items: center;
 }
 
-header >li{
+.menu{
     border: 2px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
 }
 
 
 footer{
     height: 100px;
-    background-color: aquamarine;
+    background-color:rgb(135, 206, 250);
+    text-align: center;
 }
