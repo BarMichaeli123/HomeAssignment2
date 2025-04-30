@@ -1,0 +1,28 @@
+header{
+    height: 100px;
+    background-color:rgb(135, 206, 250);
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.menu input{
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    background-color: cornflowerblue;
+    
+}
+
+.active{
+    font-weight: bold;
+}
+
+footer{
+    height: 100px;
+    background-color:rgb(135, 206, 250);
+    text-align: center;
+    
+}
