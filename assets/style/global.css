@@ -11,6 +11,11 @@ header{
     justify-content: center;
 }
 
+.menu{
+    position: fixed;
+    z-index: 100;
+}
+
 .menu input{
     border: 1px solid;
     border-radius: 5px;
@@ -22,6 +27,7 @@ header{
 
 .active{
     font-weight: bold;
+    color: white;
 }
 
 main{

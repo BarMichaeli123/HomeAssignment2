@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./assets/style/home.css">
   <link rel="stylesheet" href="./assets/style/global.css">
 </head>
@@ -18,23 +19,27 @@
   </header>
 
   <main>
-  <div class="hero section">
- 
-<img src="./assets/imgs/myImg.png" alt="my img" class="img">
- 
+  <div class="hero-section">
+ <div class="img">
+<img src="./assets/imgs/myImg.png" alt="my img">
+ </div>
  <div class="profile-info">
   <h4>Hello, I'm</h4>
  <h1>Bar Michaeli</h1>
-  <h4>Business Administration student specializing in Information Systems</h4>
+  <h4>Business Administration student<br/> 
+    specializing in Information Systems</h4>
   <input class="btn" type="button" value="My Resume"  onclick="window.open('./assets/resume.pdf', '_blank');">
  </div>
   </div>
-
-  <div class="CallToAction">
-
+  <div class="call-to-action">
+    <h3>Contact Me</h3>
+    <ul>
+      <li><a href="tel:0523888554"><i class="fas fa-phone"></i> 052-3888554</a></li>
+      <li><a href="mailto:bbarmic144@gmail.com"><i class="far fa-envelope"></i> bbarmic144@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/%D7%91%D7%A8-%D7%9E%D7%99%D7%9B%D7%90%D7%9C%D7%99-563154363/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+    </ul>
   </div>
   </main>
-
   <footer>
     <p>© 2025 Bar Michaeli. All rights reserved.</p>
   </footer>
