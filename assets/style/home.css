@@ -7,7 +7,7 @@ gap: 50px;
 text-align: start;
 }
 
-img{
+.hero-section img{
     max-width: 200px;
     height: auto;
     border: 1px solid;
@@ -31,12 +31,34 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 60px;
-    gap: 30px;
-    color: black;
+    gap: 30px; 
+    
 }
 
-.call-to-action ul{
+.contact, .project{
+    text-align: left;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.contact ul{
     list-style: none;
     padding: 0;
-    text-align: left;
+    
+}
+
+.contact ul li{
+    margin: 20px;
+}
+
+.contact ul li a, .project a{
+    color: black;
+    text-decoration: none;
+}
+
+.project-img{
+    max-width:400px ;
+    height: auto;
+    margin-top: 10px;
 }
