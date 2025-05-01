@@ -13,6 +13,7 @@ header{
 
 .menu input{
     border: 1px solid;
+    border-radius: 5px;
     padding: 10px;
     margin: 10px;
     align-items: center;
