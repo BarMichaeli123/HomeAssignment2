@@ -1,16 +1,15 @@
-main{
-
-}
-
 .hero section{
-display: flex;
- flex-direction: row;
-  justify-content: center;
+display: grid;
+grid-template-columns: auto 1fr;
+align-items: center;
+gap: 20px;
+max-width: 800px;
+text-align: start;
 }
 
-.profile-img{
+img{
+    max-width: 200px;
     height: auto;
-    width: 200px;
     border: 1px solid;
     border-radius: 10px;
 }
@@ -24,4 +23,8 @@ display: flex;
     padding: 5px;
     border: 1px solid;
     border-radius: 5px;
+}
+
+.CallToAction{
+
 }
