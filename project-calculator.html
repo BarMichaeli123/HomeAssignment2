@@ -21,16 +21,18 @@
     <p>This calculator will help you receive an accurate quote based on the service you wish to receive.<br/>
       Please fill out the following form:
     </p> 
-<label>Site Type:</label>
-<select>
+    <div>
+<label for="websiteType">Site Type:</label>
+<select name="websiteType">
   <option value="-1">choose</option>
-  <option value="Business Site">Business Site</option>
-  <option value="Online Store">Online Store</option>
-  <option value="Blog">Blog</option>
+  <option value="businessSite">Business Site</option>
+  <option value="onlineStore">Online Store</option>
+  <option value="blog">Blog</option>
 </select>
-
-<label>Number Of Pages (1-10)</label>
-<select>
+</div>
+<div>
+<label for="pageCount">Number Of Pages (1-10)</label>
+<select name="pageCount">
   <option value="1">1</option>
   <option value="2">2</option>
   <option value="3">3</option>
@@ -42,8 +44,16 @@
   <option value="9">9</option>
   <option value="10">10</option>
 </select>
+</div>
+<div>
+<label for="customDesign">Custom Design</label>
+<input type="checkbox" name="customDesign" value="yes"/>
+</div>
+<div class="btn">
+<button type="reset">Reset</button>
+<button type="button" onclick="calculatePrice()">Calculate Price</button>
+</div>
 
-  <button type="submit">Get a quote</button>
   </main>
   <footer>
     <p>© 2025 Bar Michaeli. All rights reserved.</p>
