@@ -12,6 +12,12 @@ header{
     justify-content: center;
 }
 
+.logo{
+    height: 50px;
+    margin: auto;
+    margin-right: 30px;
+}
+
 .menu{
     position: fixed;
     z-index: 100;
