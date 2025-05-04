@@ -4,7 +4,6 @@ div{
 .btn{
     text-align: center;
     margin-top: 30px;
-    gap: 10px;
 }
 .btn button[type="button"]{
     background-color: lightblue;
