@@ -1,5 +1,6 @@
 body{
 background-color: aliceblue;
+font-family: Arial, Helvetica, sans-serif
 }
 
 header{
@@ -10,6 +11,7 @@ header{
     top: 0;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .logo{
@@ -53,5 +55,32 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;  
+    width: 100%; 
 }
+
+@media only screen and(max-width:767px) { body{
+    font-size: 14px;
+    .call-to-action{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        display: none;
+    }
+}}
+
+@media only screen and (min-width: 768px) {body{
+    font-size: 16px;
+    
+}}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){}
+
+@media only screen and (min-width: 992px){}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){}
+
+@media only screen and (min-width: 1200px){body{
+    font-size: 18px;
+}}
