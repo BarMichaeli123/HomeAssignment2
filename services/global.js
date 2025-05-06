@@ -1,3 +1,6 @@
-function iconFunction() {
-    let x = document.getElementById("menuIcon");
-    x.classList.toggle("open");}
+
+
+    function iconFunction() {
+        let menu = document.getElementById("menuIcon");
+        menu.classList.toggle("show");
+      }

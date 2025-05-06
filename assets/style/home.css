@@ -17,7 +17,7 @@ text-align: start;
 
 .profile-info{
     text-align: center;
-   
+    margin: 10px;
 }
 
 .btn{
@@ -63,4 +63,21 @@ text-align: start;
     max-width:400px ;
     height: auto;
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 767px){
+    .call-to-action{
+        display: flex;
+       flex-direction: column;
+       width: 100%;
+    }
+    .contact, .project{
+       width: 100%;
+       margin: 10px;
+    }
+
+    img, .project-img {
+        max-width: 100%;
+        height: auto;
+      }
 }

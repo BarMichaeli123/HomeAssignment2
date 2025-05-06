@@ -25,7 +25,6 @@ header{
     position: fixed;
     z-index: 100;
     gap: 20px;
-    
 }
 
 .menu input{
@@ -46,8 +45,7 @@ header{
 
 #menuIcon {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;   
 }
 
 .active{
@@ -79,21 +77,20 @@ footer{
      body{
     padding: 10px;
     font-size: 14px;}
-    .menu{
-        display: none;}
-    .icon{
+
+    .icon {
         display: block;
-        cursor: pointer;
-        font-size: 20px;
-        position: absolute;
-        top: 15px;
-        left: 15px;
-        z-index: 10;}
+      }
+
+    .menu {
+        display: none;
+      }
     
-    #menuIcon.open {
+      .menu.show {
         display: flex;
-        flex-direction: column; 
-        position: absolute;}}
+      }
+      
+}
 
 @media only screen and (min-width: 768px) {
     body{
