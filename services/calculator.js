@@ -5,8 +5,10 @@ function calculatePrice(){
     let totalPrice = 0;
     let resultElement = document.getElementById("totalPrice");
     
-
-    if(websiteType==="businessSite"){
+    if(websiteType==="-1"){
+        totalPrice =0;
+    }
+    else if(websiteType==="businessSite"){
         totalPrice += 1000;
     }
     else if(websiteType==="onlineStore"){
@@ -16,13 +18,14 @@ function calculatePrice(){
         totalPrice += 1500;
     }
 
+if (websiteType !== "-1"){
     if (pageCount > 1) {
         totalPrice += (pageCount - 1) * 200;
     }
 
     if (customDesign.checked) {
             totalPrice += 1000;
-    }
+    }}
 
     resultElement.textContent = totalPrice + " ₪";
     
