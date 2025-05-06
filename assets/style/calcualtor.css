@@ -1,7 +1,15 @@
+p{
+    font-size: large;
+}
 div{
     margin: 20px;
 }
+label{
+    font-size: large;
+}
 .btn{
     text-align: center;
+    font-size: large;
     margin-top: 30px;
+    gap: 40px;
 }
