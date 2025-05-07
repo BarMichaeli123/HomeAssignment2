@@ -67,14 +67,34 @@ width: 100%;
 }
 
 @media only screen and (max-width: 767px){
+    .hero-section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .hero-section img{
+        width: 100%;
+        margin: 5px;
+        align-items: center;
+        max-width:100px ;
+        height: auto ;
+    }
+    .hero-section > div{
+        width: 100%;
+        margin: 5px;
+        text-align: center;
+    }
+
     .call-to-action{
         display: flex;
        flex-direction: column;
        width: 100%;
     }
     .contact, .project{
-       width: 100%;
+       max-width: 100%;
        margin: 10px;
+       margin-left: auto;
+       margin-right: auto;
     }
 
     img, .project-img {

@@ -17,55 +17,13 @@ header{
     
     
 }
-/*
-.logo{
-    height: 50px;
-    position: absolute;
-    left: 20px;
-}
-
-.menu{
-    display: flex;
-    align-items: center;
-}
-
-#menuIcon{
-display: flex;
-gap: 20px;
-margin: 0 auto;
-}
-
-#menuIcon input[type="button"]{
-    border: 1px solid;
-    border-radius: 5px;
-    font-size: medium;
-    padding: 10px;
-    margin: 10px;
-    align-items: center;
-    background-color: cornflowerblue; 
-}
-
-
-#icon{
-  display: none;
-  color: black;
-  font-size: 20px;
-}
-
-#menuIcon.open{
-    display: flex;
-    flex-direction: column;
-}
-
-.active{
-    font-weight: bold;
-    color: white;
-} */
 
 .hamburger-icon {
     display: none;
     cursor: pointer;
-    font-size: 24px;}
+    font-size: 24px;
+height: 20px;
+width: 20px;}
 
     .main-nav {
         display: flex;
@@ -119,46 +77,6 @@ footer{
     width: 100%; 
 }
 
-/*
-@media screen and(max-width:768px) {
-     body{
-    padding: 10px;
-    font-size: 14px;}
- 
-    header{
-        justify-content: space-between;
-        padding: 0 20px;
-    }
-    #icon {
-        display: block;
-        ;
-        font-size: 24px;
-        cursor: pointer;
-      }
-      
-      .logo {
-        margin-left: 20px;
-        margin-right: 0;
-      }
-
-      #menuIcon{
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        align-items: center;
-      }
-
-      #menuIcon.open{
-        display: flex;
-      }
-
-      #menuIcon input[type="button"] {
-        display: block;
-        width: 100%;
-        margin: 10px 0;
-      }
-      
-} */
 
 @media (max-width: 768px) {
     .main-nav {
@@ -198,4 +116,8 @@ footer{
     .top-bar {
       justify-content: space-between;
     }
+
+    .hamburger-icon i.fa-bars {
+        font-size: 24px;
+    color: darkblue;}
   }
