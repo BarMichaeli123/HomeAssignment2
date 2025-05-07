@@ -4,6 +4,11 @@ function calculatePrice(){
     let customDesign=document.getElementById("customDesign");
     let totalPrice = 0;
     let resultElement = document.getElementById("totalPrice");
+
+    if (pageCount > 10) {
+        pageCount = 10;
+        document.getElementById("pageCount").value = 10;
+      }
     
     if(websiteType==="-1"){
         totalPrice =0;
