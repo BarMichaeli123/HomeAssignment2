@@ -5,6 +5,7 @@ justify-content:center;
 align-items: center;
 gap: 50px;
 text-align: start;
+width: 100%;
 }
 
 .hero-section img{

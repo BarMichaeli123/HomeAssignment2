@@ -8,18 +8,18 @@
   <link rel="stylesheet" href="./assets/style/global.css">
 <body>
   <header> 
-    <img src="./assets/imgs/logo.jpeg" alt="My Logo" class="logo">
-    <div class="menu">
-     <a href="javascript:void(0);" class="icon" onclick="iconFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-    <nav id="menuIcon">
-        <input type="button" value="Home" onclick="window.location.href='index.html'"/>
-        <input type="button" value="About" onclick="window.location.href='About.html'" class="active"/>
-        <input type="button" value="Skills" onclick="window.location.href='skills.html'"/>
-        <input type="button" value="Project Calculator" onclick="window.location.href='project-calculator.html'"/>
+    <div class="top-bar">
+      <img src="./assets/imgs/logo.jpeg" alt="My Logo" class="logo">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <i class="fa fa-bars"></i>
+      </div>
+    </div>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="About.html" class="active">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="project-calculator.html">Project Calculator</a>
     </nav>
-  </div>
   </header>
   <main>
     <h2>About Me</h2>
@@ -32,5 +32,6 @@
   <footer>
     <p>© 2025 Bar Michaeli. All rights reserved.</p>
   </footer>
+  <script src="./services/global.js"></script>
 </body>
 </html>

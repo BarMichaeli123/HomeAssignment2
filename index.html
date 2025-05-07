@@ -9,20 +9,21 @@
   <link rel="stylesheet" href="./assets/style/global.css">
 </head>
 <body>
-  <header> 
+<header>
+  <div class="top-bar">
     <img src="./assets/imgs/logo.jpeg" alt="My Logo" class="logo">
-    <div class="menu">
-     <a href="javascript:void(0);" id="icon" onclick="iconFunction()">
+    <div class="hamburger-icon" onclick="toggleMenu()">
       <i class="fa fa-bars"></i>
-    </a>
-    <nav id="menuIcon">
-        <input type="button" value="Home" onclick="window.location.href='index.html'" class="active"/>
-        <input type="button" value="About" onclick="window.location.href='About.html'"/>
-        <input type="button" value="Skills" onclick="window.location.href='skills.html'"/>
-        <input type="button" value="Project Calculator" onclick="window.location.href='project-calculator.html'"/>
-    </nav>
+    </div>
   </div>
+  <nav class="main-nav" id="mainNav">
+    <a href="index.html" class="active">Home</a>
+    <a href="About.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="project-calculator.html">Project Calculator</a>
+  </nav>
   </header>
+
   <main>
   <div class="hero-section">
  <div class="img">
