@@ -1,4 +1,13 @@
 /* variables.css */
 :root {
   --primary-color: #ffffff;
+  --background-color: aliceblue;
+  --text-color: #333;
 }
+
+body.dark-mode {
+  --primary-color: #333;
+  --background-color: #1e1e1e;
+  --text-color: #f8f8f8;
+}
+

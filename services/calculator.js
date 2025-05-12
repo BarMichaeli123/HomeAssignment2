@@ -36,10 +36,13 @@ if (websiteType !== "-1"){
     
     const resetButton = document.querySelector('button[type="reset"]');
     const totalPriceElement = document.getElementById("totalPrice");
-
-    resetButton.addEventListener('click', function() {
-        totalPriceElement.textContent = "0 ₪";
-});
 }
+
+
+   function resetTotalPrice() {
+  let totalPriceElement = document.getElementById("totalPrice");
+  totalPriceElement.textContent = "0 ₪";
+}
+
 
 
