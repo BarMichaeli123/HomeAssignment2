@@ -14,7 +14,7 @@ label{
     gap: 40px;
 }
 button{
-    background-color:rgb(227, 244, 244);
+    background-color:var(--btn-calculator);
     border-radius: 5px;
     font-size: medium;
 }
