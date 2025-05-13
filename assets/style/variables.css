@@ -8,7 +8,7 @@
   --humburger-color:darkblue;
   --a-color:  #f0f0f0;
   --a-active: #cccccc;
-  --btn-calculator: :rgb(227, 244, 244);
+  --btn-calculator: rgb(227, 244, 244);
 }
 
 
@@ -21,6 +21,7 @@ body.dark-mode {
   --humburger-color:white;
   --a-color:rgb(100, 121, 204);
    --a-active:rgb(70, 181, 209);
+   --btn-calculator:rgb(155, 190, 200);
 }
 
 

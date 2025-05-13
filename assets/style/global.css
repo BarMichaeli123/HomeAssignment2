@@ -139,9 +139,6 @@ body.dark-mode .sun-icon {
       border-bottom: 1px solid var(--a-color);
     }
   
-    .main-nav a:last-child {
-      border-bottom: none;
-    }
   
     .hamburger-icon {
       display: block;

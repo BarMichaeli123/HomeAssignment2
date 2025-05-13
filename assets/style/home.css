@@ -35,7 +35,6 @@ width: 100%;
     grid-template-columns: 1fr 1fr;
     margin-top: 60px;
     gap: 30px; 
-    
 }
 
 .contact, .project{
@@ -48,7 +47,6 @@ width: 100%;
 .contact ul{
     list-style: none;
     padding: 0;
-    
 }
 
 .contact ul li{
