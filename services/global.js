@@ -13,16 +13,16 @@ function darkMode()
   if (body.className === darkModeClass) 
   {
     body.className = '';
-    localStorage.setItem('theme', 'light');
+    sessionStorage.setItem('theme', 'light');
   } 
   else 
   {
     body.className = darkModeClass;
-    localStorage.setItem('theme', 'dark');
+    sessionStorage.setItem('theme', 'dark');
   }
 }
 
-  const savedTheme = localStorage.getItem('theme');
+  const savedTheme = sessionStorage.getItem('theme');
   if (savedTheme === 'dark')
      {
      document.body.classList.add('dark-mode');
