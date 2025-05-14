@@ -152,4 +152,7 @@ body.dark-mode .sun-icon {
     .hamburger-icon i.fa-bars {
         font-size: 24px;
         color: var(--humburger-color);}
+
+    footer p{
+        font-size: small; }
   }
