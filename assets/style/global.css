@@ -78,6 +78,10 @@ footer{
     width: 100%; 
 }
 
+footer p {
+  font-size: medium;
+ }
+
 #themeToggle {
   padding: 8px 12px;
   cursor: pointer;
